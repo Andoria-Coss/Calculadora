@@ -9,8 +9,8 @@
                  overflow: hidden;}
 
 /*botones normales: anchura y margen*/
-.calculadora [type=button] { width: 95px; padding: 0; color: rgb(0, 0, 0); background-color: rgb(201, 226, 238); }
+.calculadora [type=button] { width: 95px; padding: 0; color: rgb(0, 0, 0); background-color: rgb(201, 226, 238); border-radius: 8px; }
 /*botones especiales*/
-.calculadora input.largo { color:#3976e7; width: 120px; }
+.calculadora input.largo { color:#3976e7; width: 120px; border-radius: 4px; }
 /*botones científicos*/
-.calculadora input.cienti { color:#008d57; width: 120px; }
+.calculadora input.cienti { color:#008d57; width: 120px; border-radius: 12px; }
